@@ -1,9 +1,9 @@
 <?php
     $string="123";
 
-    $number=(int)$string;
+    $convert=(int)$string;
 
-    echo ($number . "\n");
-    echo (gettype($number));
+    echo ($convert . "\n");
+    echo (gettype($convert));
 
 ?>

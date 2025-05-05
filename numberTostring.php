@@ -3,8 +3,7 @@
 
     $string=(string)$number;
 
-    echo ("The String is: ". $string . "\n");
-
-    echo gettype("The type is: ". $string);
+    echo ($string . "\n");
+    echo (gettype($string));
 
 ?>

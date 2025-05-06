@@ -6,14 +6,14 @@
 
     $evenSum="";
     $digit=0;
-    $i=0;
-    while($i<$length){
+    // $i=0;
+    for($i=0; $i<$length; $i++){
         $digit = $number[$i];
         
-        if (is_numeric($digit) && ($digit % 2 == 0)) {
+        if (($digit % 2 == 0)) {
             $evenSum .= $digit;
         }
-        $i++;
+        //$i++;
     }
     echo ($evenSum);
 

@@ -8,8 +8,8 @@
     $evenNumber="";
     for($i=0; $i<$length;$i++){
         $char=($string[$i]);
-        if($char==='0' || $char==='2' || $char==='4'
-            || $char==='6' || $char==='8')
+        if($char=='0' || $char=='2' || $char=='4'
+            || $char=='6' || $char=='8')
         {
             $evenNumber .= $char ;
         }

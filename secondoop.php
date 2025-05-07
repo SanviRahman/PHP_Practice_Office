@@ -4,13 +4,15 @@
         public $color="white";
         public $price=2000;
 
-        function set(string $name,string $color, int $price){
+        function set(string $name,string $color, int $price): void
+        {
             $this->name=$name;
             $this->color=$color;
             $this->price=$price;
         }
 
-        function display(){
+        function display(): void
+        {
             echo "The name is: {$this->name}\n";
             echo "The color is: {$this->color}\n";
             echo "The price is: {$this->price}\n\n";

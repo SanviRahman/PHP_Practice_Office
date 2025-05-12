@@ -1,15 +1,20 @@
 <?php
     abstract class User
     {
-        public abstract function getName();
-        public abstract function display();
+        abstract public function getName();
+        abstract public function display();
+
+        public function setName()
+        {
+            echo "This is set Name". PHP_EOL;
+        }
     }
 
     class Student extends User
     {
         public $name= "Sanvi Rahman". PHP_EOL;
 
-        public function getName(): string
+        public function getName()
         {
             return $this->name;
         }
@@ -22,5 +27,6 @@
 
     $myObj= new Student();
     echo $myObj->getName();
+    echo $myObj->setName();
     $myObj->display();
 ?>

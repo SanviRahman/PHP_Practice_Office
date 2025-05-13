@@ -2,10 +2,9 @@
 
     class ParentClass
     {
-        public $name;
         public function show()
         {
-            echo "My name is: Sanvi ";
+            echo "My name is: Sanvi";
         }
     }
 
@@ -17,7 +16,7 @@
         }
     }
 
-    $myObj= new ChildClass();
+    $myObj=new ChildClass();
     $myObj->show();
 
 

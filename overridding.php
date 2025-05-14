@@ -19,6 +19,4 @@
     $myObj=new ChildClass();
     $myObj->show();
 
-
-
 ?>

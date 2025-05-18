@@ -27,7 +27,7 @@ class Car
     private $break;
     private $music;
 
-    public function __construct(Engine $engine, BreakDown $break,Music $music)///enject kora holo
+    public function __construct(Engine $engine, BreakDown $break,Music $music)///inject kora holo
     {
         $this->engine= $engine;
         $this->break= $break;
